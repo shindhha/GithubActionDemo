@@ -1,0 +1,9 @@
+name: GitHub Action Demo
+on: push
+jobs:
+  Premier-Job:
+    name: Premier Job
+    runs-on: Ubuntu-latest
+    steps:
+      - run: echo "Premier Job"
+      - run: echo "Fin"
