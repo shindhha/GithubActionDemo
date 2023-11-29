@@ -2,6 +2,7 @@ name: GitHub Action Demo
 on: push
 jobs:
   Second-Job:
+    needs: Premier-Job
     name: Second Job
     runs-on: Ubuntu-latest
     steps:
